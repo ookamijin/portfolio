@@ -17,4 +17,7 @@
 //= require skrollr
 //= require_tree .
 
-
+javascript:
+    $(function() {
+      skrollr.init();
+    });

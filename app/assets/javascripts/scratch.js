@@ -1,3 +1,5 @@
+/* global skrollr */
+
 // Basically Android's "OnCreate"
 $(document).ready(function(){
   
@@ -6,27 +8,26 @@ $(document).ready(function(){
   var orig = Poc.innerHTML;
   
   function hello() {
-   return "Howdily Doodily";
+   return "Howdily Doodily, Worldarino";
   }
   
   $(Poc).click(function(){
       if( Poc.innerHTML == orig) {
         Poc.innerHTML = hello();
       }
-      else
+      else {
         Poc.innerHTML = orig;
+      }
   });
   // END PoC rediculousness
   
   
   
   // START skrollr attempts...
-  
-  
-  
-  
-  
-  
-  
-  
+
+});
+
+
+$(document).on('page:load', function () {
+  skrollr.init().refresh(); 
 });
