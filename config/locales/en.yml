@@ -20,4 +20,173 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+
+  #resume.*
+  resume:
+    title: |
+      Michael Brown
+      2309 SE Division Street, Portland OR 97202
+      mthomsonbrown@gmail.com
+      971-506-9783 cell
+    tag_list: |
+      C/C++ | EMBEDDED SYSTEMS | LINUX
+      RUBY | JAVA | GOLANG | ANDROID | GIT | ASSEMBLY
+      SERVER ADMINISTRATION | OOP | POSTGRES | VALIDATION
+      PROTOTYPING | DEVICE DRIVERS
+    
+    summary_one: | 
+      Six years experience developing programs in Java and C++ 
+      
+    summary_two: |
+      Published Android apps with more in development
+    
+    summary_three: | 
+      Experience building websites and services with Ruby on Rails
+      
+    languages_proficient: |
+      Java, Ruby, C/C++, Golang, Verilog, Processing, ARM Assembly
+      
+    languages_familiar: |
+      PHP, Lua, Ada, C#, Python, Slim, Sass, Javascript
+      
+    tools: |
+      ADB, MonkeyRunner, Android Studio, Git, Subversion, Apache, PostgreSQL, 
+      SQLite, Tomcat, Passenger, Visual Studio, Jenkins, Fiddler, Eclipse,
+      Tarantula, Bugzilla, Jama, Rally, Arduino, Unity, Ant, Devise, Rails
+      
+    skills_other: |
+      Conversant in Japanese, strong background in written English communication, 
+      classical guitarist, background in art and music theory.
+      
+    #resume.intel.*  
+    intel:
+      sdet_title: |
+        Software Developer in Test SGX/BCA (July 2014 – present).
+        
+      sdet_sumary: |
+        Software Guard Extensions (SGX) is a yet unreleased security technology 
+        that seeks to answer issues around cloud-based data vulnerability with 
+        theoretically 100% protection from software attacks. I am the sole 
+        validation engineer for this project, in addition to supporting validation 
+        of our Biometrics Context Agent (BCA) on Windows and Android platforms.
+        
+      sdet_bullet_one: |
+        Developed bleeding edge API modules in Golang and Ruby on Rails to extend 
+        client-side and server applications.
+      
+      sdet_bullet_two: |
+        Built automation system to test persistent authentication between our
+        Windows SDK and a paired Android service.
+        
+      sdet_bullet_three: |
+        Built five stage prototype end to end server network to test every step of 
+        SGX provisioning.
+      
+      sdet_bullet_four: |
+        Worked closely with developers in an agile environment to increase 
+        confidence in product software.
+      
+      sdet_bullet_five: |
+        Wrote smoke/performance/stress tests for our IPT persistence engine using
+        C++, Python, and Gtest. 
+        
+        
+      manager_title: |
+        Laboratory Manager (April 2014 – August 2014).
+        
+      manager_summary: |
+        I managed a $35 million validation lab at Intel with over 150 personnel in 
+        eight different groups. My responsibilities included tracking and 
+        distributing prototype microprocessors and systems, sourcing and allocating 
+        inventory, handling IT issues, and facilitating communication between 
+        unrelated departments in several locations.
+        
+      manager_bullet_one: |
+        Passed three audits of our 500+ CPUs with 100% accuracy.
+      
+      manager_bullet_two: |
+        Took over laboratory server administration, centralizing server-based 
+        software for six different teams.
+        
+      manager_bullet_three: |
+        Built and authored PHP based wiki documenting the procedures of my job, as 
+        well as BKMs for prototype systems and microprocessors.
+        
+        
+      tech_title: |
+        Platform Validation Technician (January 2014 – August 2014).
+        
+      tech_summary: |
+        I built and troubleshot bleeding edge systems for validation teams covering 
+        six different technologies supported by Intel architecture. New systems and 
+        firmware are being created on a daily basis, and it was my responsibility to 
+        discover how the configurations function with little or no documentation.
+        
+      tech_bullet_one: |
+        Set up test environments and developed testing and configuration 
+        documentation for four different validation teams, covering 18 different 
+        architectures.
+      
+      tech_bullet_two: |
+        Ran validation tests for NFC, iSCT/iRMT, IPT, SGX, and BCA technologies.
+        
+      tech_bullet_three: |
+        Brought turn around of build orders from an average of three weeks to 24 
+        hours.
+        
+    sah_title: |
+      The Slash & Hyphen, August 2013 – present
+      
+    sah_dev_title: |
+      Software Developer.
+      
+    sah_dev_summary: |
+      This is my personal Google Play account, hosting completed Android 
+      applications. Projects include framework development and integration, solid 
+      understanding of the Android API and programming paradigm, and online 
+      database implementation.
+      
+    sah_dev_bullet_one: |
+      Incorporated Devise user authentication against my Rails web service.
+    
+    sah_dev_bullet_two: |
+      Customized framework to support board game application.
+      
+    sah_dev_bullet_three: |
+      Normalized database to handle around 300 points of data per entry.
+      
+    awesome_express_title: |
+      Awesome Express, 2005 – 2014
+      
+    awesome_express_job_title: |
+      Legal Transcriptionist.
+      
+    awesome_express_job_summary: |
+      I was self-employed as a legal transcriptionist, producing written 
+      documentation of court proceedings. Work required meeting critical 
+      deadlines, extreme accuracy, and excellent communication skills.
+  
+    bluejoe_title: |
+      Blue Joe Coffee Company, 2002 – 2006
+    
+    bluejoe_job_title: |
+      Warehouse Manager.
+      
+    bluejoe_job_summary: |
+      I managed an entrepreneurial coffee roasting company for four years; worked 
+      with importers, handled roasting schedules and inventory. I interacted with 
+      large clients on a daily basis to understand and address their needs, and 
+      managed a team of three employees, including employment decisions, 
+      development, and training.
+      
+    edu_compe_title: |
+      B.S. Computer Engineering
+      
+    edu_psu: |
+      Portland State University
+      
+    edu_japanese_title: |
+      B.A. Japanese
+      
+  japanese: |
+    日本語は難しい
