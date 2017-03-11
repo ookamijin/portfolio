@@ -8,10 +8,9 @@ html
   body
     nav.navbar.navbar-fixed-top.navbar-inverse
       .container-fluid
-  	   //= link_to "Michael Brown", home_path, id: "logo"
   	   nav
   	     ul.nav.navbar-nav.pull-right
-	         li= link_to "Home",    home_path, id: "navlink"
-	         li= link_to "About",   about_path, id: "navlink"
-    
+	         li= link_to "Home",      home_path, id: "navlink"
+	         li= link_to "About",     about_path, id: "navlink"
+	         li= link_to "Projects",  projects_path, id: "navlink"
     = yield

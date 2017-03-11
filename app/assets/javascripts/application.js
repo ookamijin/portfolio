@@ -14,10 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require bootstrap-sprockets
-//= require skrollr
+//= require jquery.scrollmagic
 //= require_tree .
-
+    
 javascript:
-    $(function() {
-      skrollr.init();
-    });
+  $(function(){
+    $('#myCarousel').carousel();
+  });

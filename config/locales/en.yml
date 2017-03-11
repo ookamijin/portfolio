@@ -43,20 +43,41 @@ en:
     summary_three: | 
       Experience building websites and services with Ruby on Rails
       
+    skills_title: |
+      Skills
+      
+    languages_title: |
+      Programming Languages
+    
+    languages_proficient_title: |
+      Proficient
+      
+    languages_familiar_title: |
+      Familiar
+      
     languages_proficient: |
       Java, Ruby, C/C++, Golang, Verilog, Processing, ARM Assembly
       
     languages_familiar: |
       PHP, Lua, Ada, C#, Python, Slim, Sass, Javascript
       
+    tools_title: |
+      Tools
+    
     tools: |
       ADB, MonkeyRunner, Android Studio, Git, Subversion, Apache, PostgreSQL, 
       SQLite, Tomcat, Passenger, Visual Studio, Jenkins, Fiddler, Eclipse,
       Tarantula, Bugzilla, Jama, Rally, Arduino, Unity, Ant, Devise, Rails
+    
+    skills_other_title: |
+      Other Skills
       
     skills_other: |
       Conversant in Japanese, strong background in written English communication, 
       classical guitarist, background in art and music theory.
+    
+    jobs_title: |
+      Work Experience
       
     #resume.intel.*  
     intel:
@@ -179,6 +200,9 @@ en:
       managed a team of three employees, including employment decisions, 
       development, and training.
       
+    edu_title: |
+      Education
+      
     edu_compe_title: |
       B.S. Computer Engineering
       
@@ -187,6 +211,3 @@ en:
       
     edu_japanese_title: |
       B.A. Japanese
-      
-  japanese: |
-    日本語は難しい

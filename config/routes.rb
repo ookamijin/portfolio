@@ -4,6 +4,11 @@ Rails.application.routes.draw do
 
   get 'about' => 'index#about'
   get 'home' => 'index#home'
-  get 'scratch' => 'index#scratch'
   
+  get 'projects' => 'projects#home'
+  get 'cheskers' => 'projects#cheskers'
+  get 'jungmind' => 'projects#jungmind'
+  get 'tasterly' => 'projects#tasterly'
+  
+  get 'scratch' => 'index#scratch'
 end

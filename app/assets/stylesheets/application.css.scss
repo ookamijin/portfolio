@@ -62,8 +62,19 @@ body {
     background-color: $color-primary-0;
     padding-top: 60px;
 }
+
 @media (max-width: 979px) {
     body {
         padding-top: 0px;
     }
+}
+
+.caros img {
+  width: auto;
+  height: 400px;
+  max-height: 400px;
+}
+
+html body #bgimage {
+    background: url('background.jpg');
 }
