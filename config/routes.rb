@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'index#home'
 
   get 'about' => 'index#about'
+  get 'about/resume'
   get 'home' => 'index#home'
   
   get 'projects' => 'projects#home'
@@ -10,5 +11,4 @@ Rails.application.routes.draw do
   get 'jungmind' => 'projects#jungmind'
   get 'tasterly' => 'projects#tasterly'
   
-  get 'scratch' => 'index#scratch'
 end

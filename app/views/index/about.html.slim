@@ -2,3 +2,4 @@ center
     h1
         = simple_format(t('resume.title'))
     
+    = button_to "Resume", "resume.pdf", :class => "btn btn-primary", :method => :get
